@@ -2,15 +2,17 @@
   "name": "discord-snippy",
   "displayName": "Discord Snippy",
   "description": "This is a snippet extension for discord.js slash commands working with The North Solution's tutorials.",
+  "publisher": "light-andy",
   "author": {
     "name": "LightAndy",
     "url": "https://github.com/LightAndy1"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/LightAndy1/Discord-Snippy"
   },
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.85.0"
   },
