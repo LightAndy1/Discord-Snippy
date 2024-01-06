@@ -1,0 +1,20 @@
+{
+  "TNS Discord.js Command": {
+    "prefix": "tnscommand",
+    "body": [
+      "const { SlashCommandBuilder } = require(\"discord.js\");",
+      "",
+      "module.exports = {",
+      "  data: new SlashCommandBuilder()",
+      "    .setName(\"name\")",
+      "    .setDescription(\"Description\"),",
+      "  userPermissions: [],",
+      "  botPermissions: [],",
+      "  run: async (client, interaction) => {",
+      "    console.log(\"New Command\");",
+      "  }",
+      "}"
+    ],
+    "description": "TNS Discord.js Command"
+  }
+}
